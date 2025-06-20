@@ -5,7 +5,7 @@ workflows:
         instance_type: mac_mini_m2
         environment:
           android_signing:    
-            - keystore_reference
+            - codemagicKey
           vars:
             PACKAGE_NAME: "com.anonymous.RNCodePushDemo"
         scripts:
