@@ -22,14 +22,14 @@ workflows:
             script: | 
               echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
           - name: Generate JS bundle
-              script: |
-                mkdir -p android/app/src/main/assets
-                npx react-native bundle \
-                  --platform android \
-                  --dev false \
-                  --entry-file index.js \
-                  --bundle-output android/app/src/main/assets/index.android.bundle \
-                  --assets-dest android/app/src/main/res
+            script: |
+              mkdir -p android/app/src/main/assets
+              npx react-native bundle \
+                --platform android \
+                --dev false \
+                --entry-file index.js \
+                --bundle-output android/app/src/main/assets/index.android.bundle \
+                --assets-dest android/app/src/main/res
           - name: Build Android release
             script: | 
               cd android
