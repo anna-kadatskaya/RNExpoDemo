@@ -28,8 +28,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   image: {
-    width: 320,
-    height: 440,
-    borderRadius: 18,
+    contentFit: "cover"
   },
 });
