@@ -26,11 +26,11 @@ const styles = StyleSheet.create({
   },
     imageContainer: {
     flex: 1,
-    resizeMode: "cover"
+    //resizeMode: "cover"
   },
   image: {
-    //width: 320,
-    //height: 440,
+    width: 460,
+    height: 85,
     //borderRadius: 18,
   },
 });
