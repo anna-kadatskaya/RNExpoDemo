@@ -24,10 +24,13 @@ const styles = StyleSheet.create({
   text: {
     color: '#fff',
   },
-  imageContainer: {
+    imageContainer: {
     flex: 1,
+    resizeMode: "cover"
   },
   image: {
-    contentFit: "cover"
+    width: 320,
+    height: 440,
+    borderRadius: 18,
   },
 });
