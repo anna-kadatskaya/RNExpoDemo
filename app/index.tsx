@@ -29,8 +29,8 @@ const styles = StyleSheet.create({
     resizeMode: "cover"
   },
   image: {
-    width: 320,
-    height: 440,
-    borderRadius: 18,
+    //width: 320,
+    //height: 440,
+    //borderRadius: 18,
   },
 });
