@@ -1,7 +1,7 @@
 import { Image } from 'expo-image';
 import { StyleSheet, Text, View } from 'react-native';
 
-const PlaceholderImage = require('@/assets/images/codemagic-logo-blue.png');
+const PlaceholderImage = require('@/assets/images/codemagic-logo-blue.png.webp');
 
 export default function Index() {
   return (
